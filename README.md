@@ -23,6 +23,7 @@
 ## NPM Packages:
 * [bcrypt v5.0.1](https://www.npmjs.com/package/bcrypt)
 * [bulma v0.9.4](https://www.npmjs.com/package/bulma)
+* [chalk v4.1.2](https://www.npmjs.com/package/chalk/v/4.1.2)
 * [connect-session-sequelize v7.1.4](https://www.npmjs.com/package/connect-session-sequelize)
 * [dotenv v16.0.1](https://www.npmjs.com/package/dotenv)
 * [express v4.18.1](https://www.npmjs.com/package/express)

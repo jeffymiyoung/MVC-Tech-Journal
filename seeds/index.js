@@ -1,4 +1,6 @@
 // Imports/Requires
+const chalk = require('chalk');
+
 const seedUsers = require('./user-seeds');
 const seedPosts = require('./post-seeds');
 
@@ -8,13 +10,13 @@ const sequelize = require('../config/connection');
 // seeding logic                           
 const seedAll = async () => {
   await sequelize.sync({ force: true });
-  console.log('\n----- DATABASE SYNCED -----\n');
+  console.log(chalk.cyan.bold('\n----- DATABASE SYNCED -----\n'));
 
   await seedUsers();
-  console.log('\n----- USERS SEEDED -----\n');
+  console.log(chalk.greenBright('\n----- USERS SEEDED -----\n'));
 
   await seedPosts();
-  console.log('\n----- POSTS SEEDED -----\n');
+  console.log(chalk.greenBright('\n----- POSTS SEEDED -----\n'));
 
   process.exit(0);
 };
