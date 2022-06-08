@@ -1,0 +1,21 @@
+{
+  "name": "mvc-tech-journal---challenge",
+  "version": "1.0.0",
+  "description": "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffymiyoung/MVC-Tech-Journal.git"
+  },
+  "keywords": [],
+  "author": "Jeffrey Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffymiyoung/MVC-Tech-Journal/issues"
+  },
+  "homepage": "https://github.com/jeffymiyoung/MVC-Tech-Journal#readme"
+}
