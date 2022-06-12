@@ -12,8 +12,8 @@
         <div class="content has-text-justitifed">
             {{ post_content }}
         </div>
-        <div class="if-pulled-right">
-            <b>{{ user.username }}</b> | {{ format_date created_at }} | <a href="/post/{{id}}">{{comments.length}} {{fomrat_plural "comment" comments.length}}</a>
+        <div class="is-pulled-right">
+            <b>{{ user.username }}</b> | {{ format_date created_at }} | <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
 
         </div>
 

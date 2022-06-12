@@ -1,0 +1,21 @@
+{{!-- Dashboard template --}}
+<div class="mb-5 pt-3">
+    <a href="/dashboard/create/"><button id="create-post" class="button is-primary is-pulled-right">Create Post</button></a>
+
+    <h2>
+        Dashboard: 
+    </h2>
+    {{#if posts.length}}
+
+        {{#each posts as |post|}}
+
+        {{> post-info post}}
+
+            <a href="/dashboard/efit/{{post.id}}"><button class="button mb-5 ml-5 is-warning">Edit Post</button></a>
+        {{/each}}
+
+    {{else}}
+    <h4 class="pb-4 has-text-centered is-italic">You do not currently have any posts! Please Create One!</h4>
+    {{/if}}
+    
+</div>

@@ -1,0 +1,10 @@
+{{!-- Homepage template --}}
+
+{{#each posts as |post|}}
+
+{{> post-info post}}
+
+{{#else}}
+<h4 class="pb-4 has-text-centered is-italic">There Currently Are No Posts. Please Create One!</h4>
+{{/else}}
+{{/each}}
