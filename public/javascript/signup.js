@@ -1,12 +1,12 @@
 // signupFormHandler function
 async function signupFormHandler(event) {
     event.preventDefault();
-
+  
     // const declarations for id link
     const username = document.querySelector('#username-signup').value.trim();
     const email = document.querySelector('#email-signup').value.trim();
     const password = document.querySelector('#password-signup').value.trim();
-
+  
     // fetch logic
     if (username && email && password) {
         const response = await fetch('/api/users', {
@@ -21,11 +21,12 @@ async function signupFormHandler(event) {
         // check response status
         if (response.ok) {
             console.log('success');
+            document.location.replace('/dashboard');
         } else {
             alert(response.statusText);
         }
     }
-}
+};
 
 // Event Listener
 document.querySelector('.signup-form').addEventListener('submit', signupFormHandler);
