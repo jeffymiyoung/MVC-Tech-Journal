@@ -1,6 +1,6 @@
 {{!-- Dashboard template --}}
 <div class="mb-5 pt-3">
-    <a href="/dashboard/create/"><button id="create-post" class="button is-primary is-pulled-right">Create Post</button></a>
+    <a href="/dashboard/create/"><button id="create-post" class="button is-info is-pulled-right">Create Post</button></a>
 
     <h2>Dashboard:</h2>
 
@@ -10,7 +10,7 @@
 
         {{#each posts as |post|}}
         {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}"><button class="button mb-5 ml-5 is-warning">Edit Post</button></a>
+            <a href="/dashboard/edit/{{post.id}}"><button class="button mb-5 ml-5 is-primary">Edit Post</button></a>
         {{/each}}
 
     {{else}}
