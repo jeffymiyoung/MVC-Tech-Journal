@@ -33,7 +33,11 @@
 * [sequelize v6.20.1](https://www.npmjs.com/package/sequelize)
 
 ## Screenshot:
-* 
+* [Deployed Application](https://young-thicket-93120.herokuapp.com/)
+
+* Screenshot:
+
+![This is a screenshot of the homepage for the MVC Tech Journal Application.](./assets/heroku-screenshot.JPG)
 
 
 ## Installation:
@@ -52,7 +56,7 @@
 * Jeffrey Young
 
 ## Contact Info:
-[GitHub](https://github.com/jeffymiyoung)
+* [GitHub](https://github.com/jeffymiyoung)
 
 ---
 © 2022 MVC - Tech Journal
